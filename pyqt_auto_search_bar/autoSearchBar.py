@@ -20,7 +20,6 @@ class AutoSearchBar(QWidget):
         self.__searchLineEdit = QLineEdit()
         self.__searchIconLbl = SvgLabel()
         ps = qApp.font().pointSize()
-        print(ps * 1.5)
         self.__searchIconLbl.setFixedSize(ps * 1.5, ps * 1.5)
 
         self.__searchBar = QWidget()
