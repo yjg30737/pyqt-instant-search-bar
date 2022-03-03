@@ -66,8 +66,7 @@ class AutoSearchBar(QWidget):
         self.__label.setVisible(visibility)
 
     def __setStyle(self):
-        caller_path = os.path.dirname(inspect.getframeinfo(sys._getframe(1)).filename)
-        self.__searchIconLbl.setSvgFile(os.path.join(caller_path, r'ico\search.svg').replace('\\', '/'))
+        self.__searchIconLbl.setSvgFile('ico/search.svg')
         PyQtResourceHelper.setStyleSheet([self.__searchLineEdit, self.__searchBar, self],
                                          ['style/lineedit.css', 'style/search_bar.css', 'style/widget.css'])
 
