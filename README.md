@@ -1,5 +1,5 @@
 # pyqt-auto-search-bar
-PyQt Auto Search Bar which is search icon on the left only exists as a label, not clickable button. See the preview below.
+PyQt auto search bar which is search icon on the left only exists as a label, not clickable button. See the preview below.
 
 ## Requirements
 * PyQt5 >= 5.8
