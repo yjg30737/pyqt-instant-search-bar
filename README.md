@@ -1,6 +1,8 @@
 # pyqt-auto-search-bar
 PyQt auto search bar which is search icon on the left only exists as a label, not clickable button. See the preview below.
 
+This is useful to instant search feature.
+
 ## Requirements
 * PyQt5 >= 5.8
 
@@ -33,5 +35,5 @@ Result
 
 ## See Also
 
-* <a href="https://github.com/yjg30737/pyqt-search-bar-menu.git">pyqt-search-bar-menu</a> - In this package this module's ```AutoSearchBar``` used as a ```QWidgetAction``` type top item of the menu. In ```pyqt-search-bar-menu```'s preview, you will see ```AutoSearchBar```'s feature in detail. 
+* <a href="https://github.com/yjg30737/pyqt-search-bar-menu.git">pyqt-search-bar-menu</a> - In this package this module's `AutoSearchBar` used as a `QWidgetAction` type top item of the menu. In `pyqt-search-bar-menu`'s preview, you will see `AutoSearchBar`'s feature in detail. 
 * <a href="https://github.com/yjg30737/pyqt-search-bar.git">pyqt-search-bar</a> - This supports search button.
