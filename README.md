@@ -13,6 +13,16 @@ This is useful to instant search feature.
 * <a href="https://github.com/yjg30737/pyqt-resource-helper.git">pyqt-resource-helper</a>
 * <a href="https://github.com/yjg30737/pyqt-svg-label.git">pyqt-svg-label</a>
 
+## Methods Overview
+* #### `setLabel(visibility: bool = True, text=None)`
+Set the visibility of search icon. You can set the text with this function too.
+* #### `setSearchIcon(icon_filename: str)`
+Set the icon. icon should be svg file.
+* #### `setPlaceHolder(text: str)`
+* #### `getSearchBar()`
+* #### `getSearchLineEdit()`
+* #### `getSearchLabel()`
+
 ## Preview
 Code Sample
 ```python
