@@ -7,7 +7,7 @@ This is useful to instant search feature.
 * PyQt5 >= 5.8
 
 ## Setup
-```pip3 install git+https://github.com/yjg30737/pyqt-auto-search-bar.git --upgrade```
+`python -m pip install pyqt-auto-search-bar`
 
 ## Included Packages
 * <a href="https://github.com/yjg30737/pyqt-resource-helper.git">pyqt-resource-helper</a>
@@ -35,5 +35,5 @@ Result
 
 ## See Also
 
-* <a href="https://github.com/yjg30737/pyqt-search-bar-menu.git">pyqt-search-bar-menu</a> - In this package this module's `AutoSearchBar` used as a `QWidgetAction` type top item of the menu. In `pyqt-search-bar-menu`'s preview, you will see `AutoSearchBar`'s feature in detail. 
+* <a href="https://github.com/yjg30737/pyqt-search-bar-menu.git">pyqt-search-bar-menu</a> - QMenu which has search bar as a first item to help you search the menu items.
 * <a href="https://github.com/yjg30737/pyqt-search-bar.git">pyqt-search-bar</a> - This supports search button.
