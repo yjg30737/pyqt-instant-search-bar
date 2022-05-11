@@ -85,16 +85,5 @@ class AutoSearchBar(QWidget):
     def getSearchLabel(self):
         return self.__searchIconLbl
 
-    def showSearchBar(self, layout):
-        self.__execShowSearchBar(layout)
-
-    def __execShowSearchBar(self, layout):
-        if isinstance(layout, QGridLayout):
-            layout.addWidget(self, 0, 0, 1, 1, Qt.AlignTop)
-            self.__searchLineEdit.setFocus()
-
-    def __hideSearchBar(self):
-        self.hide()
-
     def showEvent(self, e):
         self.__searchLineEdit.setFocus()
