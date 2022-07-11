@@ -25,16 +25,16 @@ Set the icon. icon should be svg file.
 
 ## Preview
 Code Sample
+
 ```python
 from PyQt5.QtWidgets import QApplication
-from pyqt_auto_search_bar import AutoSearchBar
-
+from pyqt_instant_search_bar import InstantSearchBar
 
 if __name__ == "__main__":
     import sys
 
     app = QApplication(sys.argv)
-    searchBar = AutoSearchBar()
+    searchBar = InstantSearchBar()
     searchBar.show()
     app.exec_()
 ```

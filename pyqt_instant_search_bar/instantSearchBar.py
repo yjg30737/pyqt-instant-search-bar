@@ -7,7 +7,7 @@ from pyqt_resource_helper import PyQtResourceHelper
 from pyqt_svg_label import SvgLabel
 
 
-class AutoSearchBar(QWidget):
+class InstantSearchBar(QWidget):
 
     def __init__(self, parent=None):
         super().__init__(parent)

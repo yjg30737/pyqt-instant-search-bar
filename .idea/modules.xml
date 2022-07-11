@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pyqt_auto_search_bar.iml" filepath="$PROJECT_DIR$/.idea/pyqt_auto_search_bar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pyqt_instant_search_bar.iml" filepath="$PROJECT_DIR$/.idea/pyqt_instant_search_bar.iml" />
     </modules>
   </component>
 </project>

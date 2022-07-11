@@ -1,0 +1,1 @@
+from .instantSearchBar import InstantSearchBar
