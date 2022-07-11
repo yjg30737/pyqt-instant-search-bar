@@ -2,12 +2,13 @@ import os, inspect, sys
 
 from PyQt5.QtWidgets import QWidget, QLineEdit, QGridLayout, QLabel, \
     QHBoxLayout, qApp
-from PyQt5.QtCore import Qt
+from PyQt5.QtCore import Qt, pyqtSignal
 from pyqt_resource_helper import PyQtResourceHelper
 from pyqt_svg_label import SvgLabel
 
 
 class InstantSearchBar(QWidget):
+    searched = pyqtSignal(str)
 
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -33,6 +34,7 @@ class InstantSearchBar(QWidget):
         lay.setSpacing(0)
 
         self.__searchLineEdit.setFocus()
+        self.__searchLineEdit.textChanged.connect(self.__searched)
 
         self.setAutoFillBackground(True)
 
@@ -69,6 +71,9 @@ class InstantSearchBar(QWidget):
         self.__searchIconLbl.setSvgFile('ico/search.svg')
         PyQtResourceHelper.setStyleSheet([self.__searchLineEdit, self.__searchBar, self],
                                          ['style/lineedit.css', 'style/search_bar.css', 'style/widget.css'])
+
+    def __searched(self, text):
+        self.searched.emit(text)
 
     def setSearchIcon(self, icon_filename: str):
         self.__searchIconLbl.setIcon(icon_filename)
