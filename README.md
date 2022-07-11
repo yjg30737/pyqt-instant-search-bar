@@ -14,7 +14,7 @@ PyQt instant search bar.
 * <a href="https://github.com/yjg30737/pyqt-resource-helper.git">pyqt-resource-helper</a>
 * <a href="https://github.com/yjg30737/pyqt-svg-label.git">pyqt-svg-label</a>
 
-## Methods Overview
+## Methods/Signal Overview
 * #### `setLabel(visibility: bool = True, text=None)`
 Set the visibility of search icon. You can set the text with this function too.
 * #### `setSearchIcon(icon_filename: str)`
@@ -23,6 +23,7 @@ Set the icon. icon should be svg file.
 * #### `getSearchBar()`
 * #### `getSearchLineEdit()`
 * #### `getSearchLabel()`
+* ## `searched(text: str)` signal to get the text which is written in the search bar. See the example below.
 
 ## Preview
 Code Sample
@@ -36,7 +37,7 @@ if __name__ == "__main__":
 
     app = QApplication(sys.argv)
     searchBar = InstantSearchBar()
-    searchBar.searched.connect(print)
+    searchBar.searched.connect(print) # print the written text
     searchBar.show()
     app.exec_()
 ```
