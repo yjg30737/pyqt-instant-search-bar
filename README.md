@@ -1,5 +1,5 @@
-# pyqt-auto-search-bar
-PyQt auto search bar which is search icon on the left only exists as a label, not clickable button. See the preview below.
+# pyqt-instant-search-bar
+PyQt instant search bar
 
 This is useful to instant search feature.
 
@@ -7,7 +7,7 @@ This is useful to instant search feature.
 * PyQt5 >= 5.8
 
 ## Setup
-`python -m pip install pyqt-auto-search-bar`
+`python -m pip install pyqt-instant-search-bar`
 
 ## Included Packages
 * <a href="https://github.com/yjg30737/pyqt-resource-helper.git">pyqt-resource-helper</a>
