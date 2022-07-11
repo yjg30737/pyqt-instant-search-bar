@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/55078043/155654257-4d31a17a-fc64-4292-aecc-cf46a9580f18.png)
 
-PyQt instant search bar - instant search friendly GUI.
+PyQt instant search bar.
 
 ## Requirements
 * PyQt5 >= 5.8
@@ -36,6 +36,7 @@ if __name__ == "__main__":
 
     app = QApplication(sys.argv)
     searchBar = InstantSearchBar()
+    searchBar.searched.connect(print)
     searchBar.show()
     app.exec_()
 ```
