@@ -1,7 +1,5 @@
 # pyqt-instant-search-bar
-PyQt instant search bar
-
-This is useful to instant search feature.
+PyQt instant search bar - instant search friendly GUI.
 
 ## Requirements
 * PyQt5 >= 5.8
