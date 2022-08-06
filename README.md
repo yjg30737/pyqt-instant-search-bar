@@ -50,3 +50,4 @@ Result
 
 * <a href="https://github.com/yjg30737/pyqt-search-bar-menu.git">pyqt-search-bar-menu</a> - QMenu which has search bar as a first item to help you search the menu items.
 * <a href="https://github.com/yjg30737/pyqt-search-bar.git">pyqt-search-bar</a> - This supports search button. (click to search, not instant search)
+* <a href="https://github.com/yjg30737/pyqt-database-example.git">pyqt-database-example</a> - Search the sql database table(using QSqlTableModel) with instant search bar.
