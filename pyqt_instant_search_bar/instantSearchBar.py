@@ -1,8 +1,6 @@
-import os, inspect, sys
-
 from PyQt5.QtWidgets import QWidget, QLineEdit, QGridLayout, QLabel, \
-    QHBoxLayout, qApp
-from PyQt5.QtCore import Qt, pyqtSignal
+    QHBoxLayout, QApplication
+from PyQt5.QtCore import pyqtSignal
 from pyqt_resource_helper import PyQtResourceHelper
 from pyqt_svg_label import SvgLabel
 
@@ -20,7 +18,7 @@ class InstantSearchBar(QWidget):
     def _initUi(self):
         self.__searchLineEdit = QLineEdit()
         self.__searchIconLbl = SvgLabel()
-        ps = qApp.font().pointSize()
+        ps = QApplication.font().pointSize()
         self.__searchIconLbl.setFixedSize(ps * 1.5, ps * 1.5)
 
         self.__searchBar = QWidget()
