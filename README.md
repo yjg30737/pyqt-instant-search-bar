@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/55078043/155654257-4d31a17a-fc64-4292-aecc-cf46a9580f18.png)
 
-PyQt instant search bar.
+PyQt(+PySide) instant search bar.
 
 ## Requirements
 * PyQt5 >= 5.8
