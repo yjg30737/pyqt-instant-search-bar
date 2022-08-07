@@ -11,6 +11,7 @@ PyQt instant search bar.
 `python -m pip install pyqt-instant-search-bar`
 
 ## Included Packages
+* <a href="https://github.com/spyder-ide/qtpy.git">qtpy</a> - Make this module support not only PyQt5 but also PyQt6, PySide2, PySide6 
 * <a href="https://github.com/yjg30737/pyqt-resource-helper.git">pyqt-resource-helper</a>
 * <a href="https://github.com/yjg30737/pyqt-svg-label.git">pyqt-svg-label</a>
 
