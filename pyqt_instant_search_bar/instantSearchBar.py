@@ -1,12 +1,12 @@
 from qtpy.QtWidgets import QWidget, QLineEdit, QGridLayout, QLabel, \
     QHBoxLayout, QApplication
-from qtpy.QtCore import pyqtSignal
+from qtpy.QtCore import Signal
 from pyqt_resource_helper import PyQtResourceHelper
 from pyqt_svg_label import SvgLabel
 
 
 class InstantSearchBar(QWidget):
-    searched = pyqtSignal(str)
+    searched = Signal(str)
 
     def __init__(self, parent=None):
         super().__init__(parent)
