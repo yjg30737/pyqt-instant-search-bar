@@ -1,6 +1,6 @@
-from PyQt5.QtWidgets import QWidget, QLineEdit, QGridLayout, QLabel, \
+from qtpy.QtWidgets import QWidget, QLineEdit, QGridLayout, QLabel, \
     QHBoxLayout, QApplication
-from PyQt5.QtCore import pyqtSignal
+from qtpy.QtCore import pyqtSignal
 from pyqt_resource_helper import PyQtResourceHelper
 from pyqt_svg_label import SvgLabel
 

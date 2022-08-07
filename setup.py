@@ -22,6 +22,7 @@ setup(
     long_description=long_description,
     install_requires=[
         'PyQt5>=5.8',
+        'qtpy',
         'pyqt-resource-helper>=0.0.1',
         'pyqt-svg-label>=0.0.1'
     ]
