@@ -21,7 +21,6 @@ Set the visibility of search icon. You can set the text with this function too.
 Set the icon. icon should be svg file.
 * #### `setPlaceHolder(text: str)`
 * #### `getSearchBar()`
-* #### `getSearchLineEdit()`
 * #### `getSearchLabel()`
 * ## `searched(text: str)` signal to get the text which is written in the search bar. See the example below.
 
