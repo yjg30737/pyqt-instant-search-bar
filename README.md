@@ -24,6 +24,18 @@ Set the icon. icon should be svg file.
 * #### `getSearchLabel()`
 * ## `searched(text: str)` signal to get the text which is written in the search bar. See the example below.
 
+
+I want to talk about icon size.
+
+Size maybe looks small than preview and in general as well.
+
+So you can change the icon size like this:
+
+```python
+    lbl = searchBar.getSearchLabel()
+    lbl.setFixedSize(lbl.size().width() * 2, lbl.size().height() * 2)
+```
+
 ## Preview
 Code Sample
 
