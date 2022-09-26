@@ -24,6 +24,7 @@ Set the icon. icon should be svg file.
 * #### `getSearchLabel()`
 * ## `searched(text: str)` signal to get the text which is written in the search bar. See the example below.
 
+#### Since 0.0.18
 
 I want to talk about icon size.
 
