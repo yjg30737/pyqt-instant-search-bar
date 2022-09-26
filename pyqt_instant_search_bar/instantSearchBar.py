@@ -19,7 +19,7 @@ class InstantSearchBar(QWidget):
         self.__searchLineEdit = QLineEdit()
         self.__searchIconLbl = SvgLabel()
         ps = QApplication.font().pointSize()
-        self.__searchIconLbl.setFixedSize(ps * 1.5, ps * 1.5)
+        self.__searchIconLbl.setFixedSize(ps, ps)
 
         self.__searchBar = QWidget()
         self.__searchBar.setObjectName('searchBar')
