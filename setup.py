@@ -9,7 +9,7 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
 
 setup(
     name='pyqt-instant-search-bar',
-    version='0.0.18',
+    version='0.0.19',
     author='Jung Gyu Yoon',
     author_email='yjg30737@gmail.com',
     license='MIT',
@@ -21,7 +21,5 @@ setup(
     long_description=long_description,
     install_requires=[
         'PyQt5>=5.8',
-        'pyqt-resource-helper>=0.0.1',
-        'pyqt-svg-label>=0.0.1'
     ]
 )
