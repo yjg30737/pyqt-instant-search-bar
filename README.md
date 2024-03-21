@@ -10,10 +10,6 @@ PyQt(+PySide) instant search bar.
 ## Setup
 `python -m pip install pyqt-instant-search-bar`
 
-## Included Packages
-* <a href="https://github.com/yjg30737/pyqt-resource-helper.git">pyqt-resource-helper</a>
-* <a href="https://github.com/yjg30737/pyqt-svg-label.git">pyqt-svg-label</a>
-
 ## Methods/Signal Overview
 * #### `setLabel(visibility: bool = True, text=None)`
 Set the visibility of search icon. You can set the text with this function too.
